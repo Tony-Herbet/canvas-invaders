@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shape Invaders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="scores">
+    <p>Score : <span class="score">0</span></p>
+    <p>High-score : <span class="high-score">0</span></p>
+    <p>Lives : <span class="lives">&hearts;&hearts;&hearts;</span></p>
+  </div>
+  <div class="menu">
+    <div class="menu_bg">
+      <p class="menu_game-over">GAME OVER</p>
+      <div class="menu_scores">
+        <p>Score : <span class="menu_score">0</span></p>
+        <p>High-score : <span class="menu_high-score">0</span></p>
+      </div>
+      <button class="menu_button">Start New Game</button>
+      <div>
+        <p>Controls</p>
+        <div class="controls-infos">
+          <p>Move left : <span>q</span></p>
+          <p>Move right : <span>d</span></p>
+          <p>Shoot : <span>space</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <canvas width="250" height="200"></canvas>
+  <script type="text/javascript" src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

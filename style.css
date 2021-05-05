@@ -1,0 +1,63 @@
+body {
+  color: white;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(./invaders.png);
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+canvas {
+  border: black solid 1px;
+  width: 400px;
+  height: 300px;
+}
+
+.scores {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  
+}
+
+.scores p {
+  width: 149px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-top: 7vh;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.menu_game-over {
+  display: none;
+}
+
+.menu_scores {
+  display: none;
+}
